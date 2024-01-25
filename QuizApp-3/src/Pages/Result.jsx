@@ -19,7 +19,7 @@ export default class Result extends Component{
 
                 <div className='resultSection'>
                     <h4>You need more practice!</h4>
-                    <h2 style={{color:"blue" , marginTop:"30px" , fontSize:"35px"}}>Your Score is </h2>
+                    <h2 style={{color:"blue" , marginTop:"30px" , fontSize:"35px"}}>Your Score is {score}</h2>
                     <div>
                         <div className='flex-centered resultOption'>
                             <p style={{fontWeight:"bold"}}>Total No of Questions</p>
